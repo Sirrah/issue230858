@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Issue230858RequestFocus</string>
+    <string name="my_custom_input">My custom input</string>
 </resources>
