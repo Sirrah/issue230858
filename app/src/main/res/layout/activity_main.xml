@@ -15,21 +15,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_below="@id/editText1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
     <FrameLayout
         android:id="@+id/fragment"
-        android:layout_below="@id/editText2"
+        android:layout_below="@id/editText1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:layout="@layout/fragment_edit" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/editText2"
         android:layout_below="@id/fragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
