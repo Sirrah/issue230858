@@ -21,18 +21,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <nl.sirrah.issue230858requestfocus.CustomInput
-        android:id="@+id/myCustomInput"
+    <FrameLayout
+        android:id="@+id/fragment"
         android:layout_below="@id/editText2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <requestFocus />
-    </nl.sirrah.issue230858requestfocus.CustomInput>
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_edit" />
 
     <EditText
         android:id="@+id/editText3"
-        android:layout_below="@id/myCustomInput"
+        android:layout_below="@id/fragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 </RelativeLayout>
